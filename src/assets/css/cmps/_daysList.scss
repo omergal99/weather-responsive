@@ -1,0 +1,39 @@
+.weather-page {
+  .days-list {
+    grid-row: 2 / 5;
+    justify-content: space-evenly;
+    flex-direction: column;
+    ul {
+      width: 80%;
+      height: 30%;
+      // padding: 1.875em 2.5em;
+      padding: 1.25em 1.75em;
+      margin: 0 auto;
+      background-color: #ffffff26;
+      display: grid;
+      grid-template-rows: 10% 55% 25% 10%;
+      font-family: sans_pro, Arial, Helvetica, sans-serif;
+      li {
+        list-style-type: none;
+      }
+      .name {
+        font-size: 1.4em;
+      }
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          height: 5em;
+        }
+      }
+      .temp {
+        font-size: 2.5em;
+      }
+      .title {
+        font-size: 1.4em;
+        font-weight: bold;
+      }
+    }
+  }
+}
