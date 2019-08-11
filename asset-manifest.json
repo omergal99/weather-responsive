@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/weather-responsive/static/css/main.597189d0.chunk.css",
+    "main.js": "/weather-responsive/static/js/main.dc3a3f74.chunk.js",
+    "main.js.map": "/weather-responsive/static/js/main.dc3a3f74.chunk.js.map",
+    "runtime~main.js": "/weather-responsive/static/js/runtime~main.8f17596a.js",
+    "runtime~main.js.map": "/weather-responsive/static/js/runtime~main.8f17596a.js.map",
+    "static/js/2.eddb0dc4.chunk.js": "/weather-responsive/static/js/2.eddb0dc4.chunk.js",
+    "static/js/2.eddb0dc4.chunk.js.map": "/weather-responsive/static/js/2.eddb0dc4.chunk.js.map",
+    "index.html": "/weather-responsive/index.html",
+    "precache-manifest.434148a673d7feb101bc9abbf2b5e53a.js": "/weather-responsive/precache-manifest.434148a673d7feb101bc9abbf2b5e53a.js",
+    "service-worker.js": "/weather-responsive/service-worker.js",
+    "static/css/main.597189d0.chunk.css.map": "/weather-responsive/static/css/main.597189d0.chunk.css.map",
+    "static/media/App.scss": "/weather-responsive/static/media/background.230612ef.png"
+  }
+}
