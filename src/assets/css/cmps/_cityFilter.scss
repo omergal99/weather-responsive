@@ -1,5 +1,34 @@
-// .weather-page {
-//   .city-filter {
-//     // text-align: right;
-//   }
-// }
+.weather-page {
+  .city-filter {
+    text-align: center;
+    margin: 0 0 1em 0;
+    width: 100%;
+    height: 4em;
+    background-color: $clr3bc;
+    color: $clr3;
+    border: 0.075em solid $clr3br;
+    .wrap-img {
+      cursor: pointer;
+      height: 50%;
+      padding: 1em 0.4em;
+      img {
+        height: 1.2em;
+      }
+    }
+    input {
+      height: 2.5em;
+      width: 70%;
+      background-color: rgba(0, 0, 0, 0);
+      border: none;
+      color: $clr3;
+      font-size: 1.2em;
+      text-align: left;
+      padding: 0;
+      font-family: sans_pro, open_sans, sans-serif;
+      &::placeholder {
+        color: $clr3;
+        text-align: left;
+      }
+    }
+  }
+}

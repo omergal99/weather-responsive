@@ -1,8 +1,8 @@
-Quick look how the project looks up to now: * coming soon *
+Quick look how it is looks: https://omergal99.github.io/weather-responsive/
 
-# herolo-weather
+# Weather-Responsive
 
-An weather app using hooks
+A weather screen using hooks
 
 ## Explanation
 

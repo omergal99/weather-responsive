@@ -4,12 +4,10 @@ import DaysList from '../cmps/DaysList';
 import CityFilter from '../cmps/CityFilter';
 import WeatherService from '../services/WeatherService';
 
-
 function WeatherPage() {
 
   const [threeDays, setDays] = useState('');
   const [pageNumber, setPageNumber] = useState(0);
-  const [recentFilter, setRecentFilter] = useState('');
 
   useEffect(() => {
     (async () => {
@@ -18,10 +16,6 @@ function WeatherPage() {
     })();
   }, []);
 
-  const filterCitys = newFilter => {
-    setRecentFilter(newFilter);
-    console.log(newFilter);
-  }
   const togglePage = async () => {
     if (pageNumber === 0) {
       const serviceDays = await WeatherService.getThreeDays(1);
@@ -37,7 +31,7 @@ function WeatherPage() {
   return (
     <div className="weather-page">
       <div className="main flex-col">
-        <CityFilter onFilter={filterCitys} />
+        <CityFilter />
         <div className="display-weather">
           <div className="arrow-icon">
             <img className={pageNumber ? 'rotate180' : ''}

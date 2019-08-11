@@ -23,30 +23,30 @@ const days = [
     {
         _id: '104',
         name: 'wednesday',
-        img: 'assets/img/icons/cloudy.png',
+        img: 'assets/img/icons/rain.png',
         temp: [14, 6],
-        title: 'cloudy'
+        title: 'rain'
     },
     {
         _id: '105',
         name: 'thursday',
-        img: 'assets/img/icons/sunny.png',
-        temp: [22, 34],
-        title: 'sunny'
+        img: 'assets/img/icons/cloudy.png',
+        temp: [20, 12],
+        title: 'cloudy'
     },
     {
         _id: '106',
         name: 'friday',
-        img: 'assets/img/icons/rain.png',
-        temp: [12, 20],
-        title: 'rain'
+        img: 'assets/img/icons/sunny.png',
+        temp: [34, 22],
+        title: 'sunny'
     },
     {
         _id: '107',
         name: 'saturday',
-        img: 'assets/img/icons/cloudy.png',
-        temp: [16, 29],
-        title: 'cloudy'
+        img: 'assets/img/icons/rain.png',
+        temp: [16, 8],
+        title: 'rain'
     },
     {
         _id: '101',

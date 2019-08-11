@@ -11,24 +11,6 @@
   transition: padding 0.8s;
   .main {
     height: 100%;
-    .city-filter {
-      text-align: center;
-      padding: 0 0 1em 0;
-      input {
-        width: 100%;
-        height: 3em;
-        font-size: 1.2em;
-        font-family: open_sans, sans-serif;
-        text-align: center;
-        background-color: $clr3bc;
-        color: $clr3;
-        border: 0.075em solid $clr3br;
-        font-weight: bold;
-        &::placeholder {
-          color: $clr3;
-        }
-      }
-    }
     .display-weather {
       color: $clr7;
       display: grid;
